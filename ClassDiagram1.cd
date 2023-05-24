@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="FinalProject_ClassDiagram_BesaluMartinPol.BesaluParts" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAEAAAgAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Business.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="facilityNum" />
+      <Field Name="supplierNum" />
+      <Field Name="webReference" />
+      <Field Name="manufacturerNum" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FinalProject_ClassDiagram_BesaluMartinPol.Facilities">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAIEAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Facilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProject_ClassDiagram_BesaluMartinPol.E_Shop">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAABAAEAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>E_Shop.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="productNum" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FinalProject_ClassDiagram_BesaluMartinPol.Invoice">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAIAAAAAAAAAAAAACAACAAQAAAAA=</HashCode>
+      <FileName>Invoice.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="facilityNum" />
+      <Field Name="webReference" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FinalProject_ClassDiagram_BesaluMartinPol.Supplier">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAIAAAAAAAAAAAAAAEI=</HashCode>
+      <FileName>Suplier.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="productNum" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FinalProject_ClassDiagram_BesaluMartinPol.Product">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAAAAAAAAAAgAAAAAAAAAAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProject_ClassDiagram_BesaluMartinPol.Computers">
+    <Position X="0.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Computers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProject_ClassDiagram_BesaluMartinPol.Phones">
+    <Position X="2.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Phones.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProject_ClassDiagram_BesaluMartinPol.Components">
+    <Position X="4.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProject_ClassDiagram_BesaluMartinPol.Peripherals">
+    <Position X="6" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peripherals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProject_ClassDiagram_BesaluMartinPol.Manufacturer">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Deliverers.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="delivererNum" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FinalProject_ClassDiagram_BesaluMartinPol.Deliverer">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Deliverer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="productNum" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FinalProject_ClassDiagram_BesaluMartinPol.Employee">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAAAAAAAAADAAAAAAAAAAEAAAAAADAAAAAAAA=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="webManagement" />
+      <Field Name="facilityNum" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

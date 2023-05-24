@@ -1,0 +1,99 @@
+<diagram program="umletino" version="15.1"><zoom_level>15</zoom_level><element><id>UMLClass</id><coordinates><x>555</x><y>390</y><w>315</w><h>195</h></coordinates><panel_attributes>Supplier
+--
+address : string
+companyName : string
+NIF : string
+productNum : Product
+--
++ getProducts(get: Products)
++ listProducts(product: Products)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1410</x><y>0</y><w>315</w><h>240</h></coordinates><panel_attributes>BesaluParts
+--
+manufacturerNum : int
+supplierNum : int
+facilityNum : int
+webReference : int
+--
++ contactManufacturer(companyName: Manufacturer)
++ contactSuplier(companyName: Supplier)
++ payE_Shop(webPage: E_Shop)
++ payFacilies(name: Facilities)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1065</x><y>390</y><w>315</w><h>165</h></coordinates><panel_attributes>Manufacturer
+--
+companyName : string
+shippingAdress : string
+delivererNum : Deliverer
+--
++ handInProducts(get: Products)
++ listProducts(product: Products)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1755</x><y>390</y><w>315</w><h>195</h></coordinates><panel_attributes>Facilities
+--
+address : string
+email : string
+name : string
+NIF : string
+--
++ listEmployees(name: Employee)
++ saveProducts((name: Products)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2280</x><y>390</y><w>315</w><h>195</h></coordinates><panel_attributes>E_Shop
+--
+email : string
+NIF : string
+webPage : string
+productNum : Product
+--
++ listProducts(products: Products)
++ onlineCheckout(pay: Products)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>555</x><y>675</y><w>315</w><h>165</h></coordinates><panel_attributes>Product
+--
+brand : string
+name : string
+price : int
+specs : string
+type : string</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1065</x><y>675</y><w>315</w><h>105</h></coordinates><panel_attributes>Deliverer
+--
+deliver_id : int
+--
++ deliverProducts(product: Products)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>990</y><w>315</w><h>75</h></coordinates><panel_attributes>Computers
+--
+serialNumber : int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>990</y><w>315</w><h>75</h></coordinates><panel_attributes>Phones
+--
+serialNumber : int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>720</x><y>990</y><w>315</w><h>75</h></coordinates><panel_attributes>Components
+--
+serialNumber : int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1080</x><y>990</y><w>315</w><h>75</h></coordinates><panel_attributes>Peripherals
+--
+serialNumber : int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1755</x><y>675</y><w>315</w><h>285</h></coordinates><panel_attributes>Employee
+--
+dataHired : Date
+employee_id : int
+name : string
+section : string
+status : string
+facilityNum : Facilities
+webManagement : E_Shop
+--
++ adviceCostumer(sell: Products)
++ checkOutCostumer(pay: Products)
++ sellProducts(products: Products)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2280</x><y>675</y><w>315</w><h>105</h></coordinates><panel_attributes>Invoice
+--
+date : Date
+invoiceNum : int
+shippingAddress : string
+facilityNum : Facilities
+webReference: E_Shop</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>675</x><y>810</y><w>240</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>17;16;20;70;140;70;140;120</additional_attributes></element><element><id>Relation</id><coordinates><x>675</x><y>810</y><w>600</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>17;16;20;70;380;70;380;120</additional_attributes></element><element><id>Relation</id><coordinates><x>495</x><y>810</y><w>240</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>137;16;140;70;10;70;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>810</y><w>585</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>367;16;370;70;10;70;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>690</x><y>570</y><w>60</w><h>135</h></coordinates><panel_attributes>1
+
+
+N</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>690</x><y>225</y><w>900</w><h>195</h></coordinates><panel_attributes></panel_attributes><additional_attributes>580;10;580;40;10;40;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>1215</x><y>270</y><w>45</w><h>150</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>1215</x><y>540</y><w>60</w><h>165</h></coordinates><panel_attributes>N
+
+
+N</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>1905</x><y>570</y><w>60</w><h>135</h></coordinates><panel_attributes>1
+
+
+N</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>1545</x><y>225</y><w>405</w><h>195</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;40;250;40;250;110</additional_attributes></element><element><id>Relation</id><coordinates><x>1545</x><y>225</y><w>930</w><h>195</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;40;600;40;600;110</additional_attributes></element><element><id>Relation</id><coordinates><x>2430</x><y>570</y><w>60</w><h>135</h></coordinates><panel_attributes>1
+
+N</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>855</x><y>705</y><w>240</w><h>60</h></coordinates><panel_attributes>N                                 1</panel_attributes><additional_attributes>140;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>2055</x><y>495</y><w>255</w><h>270</h></coordinates><panel_attributes>N
+
+
+
+
+
+
+
+
+															N</panel_attributes><additional_attributes>10;10;80;10;80;160;150;160</additional_attributes></element><element><id>Relation</id><coordinates><x>2055</x><y>510</y><w>870</w><h>555</h></coordinates><panel_attributes>1																																																																																																																																																								
+																																															N</panel_attributes><additional_attributes>10;190;80;190;80;340;410;340;410;10;360;10</additional_attributes></element><element><id>Relation</id><coordinates><x>855</x><y>435</y><w>1875</w><h>690</h></coordinates><panel_attributes>N																																																																																																																																																																																																															1</panel_attributes><additional_attributes>10;240;430;240;430;440;1230;440;1230;10;1160;10</additional_attributes></element></diagram>
